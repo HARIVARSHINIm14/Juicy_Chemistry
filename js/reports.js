@@ -277,4 +277,3 @@ window.generateInventoryChart = generateInventoryChart;
 generateCustomerReport();
 generateSalesChart();
 generateInventoryChart();
- 

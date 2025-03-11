@@ -10,6 +10,7 @@ import {
     doc,
     query,
     where,
+    orderBy,
     setDoc,
     updateDoc,
     serverTimestamp 
@@ -34,7 +35,7 @@ const storage = getStorage(app);
 
 // Export Firebase Modules
 
-export { auth, db, storage, collection, getDocs, addDoc, setDoc, deleteDoc,updateDoc, doc,query,where, serverTimestamp,getDoc };
+export { auth, db, storage, collection, getDocs, addDoc, orderBy,setDoc, deleteDoc,updateDoc, doc,query,where, serverTimestamp,getDoc };
 
 
 

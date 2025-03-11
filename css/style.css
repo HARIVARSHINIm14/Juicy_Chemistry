@@ -132,7 +132,81 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+Centered Login Container CSS
 
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+    background-color: #f9f9f7;
+}
+
+.login-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.login-box input {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.login-box input:focus {
+    border-color: #8cb369;
+    outline: none;
+}
+
+.login-box button {
+    background-color: #8cb369;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.login-box button:hover {
+    background-color: #6b9345;
+}
+
+.login-box p {
+    margin: 15px 0;
+    color: #666;
+}
+
+.login-box a {
+    color: #8cb369;
+    text-decoration: none;
+    font-weight: 500;
+}
+.login-box 
+.login-box a:hover {
+    text-decoration: underline;
+}
 .logo img {
     height: 40px;
 }
@@ -706,6 +780,7 @@ footer {
     height: 100%;
 
 }
+
 .page-title {
     text-align: center;
     padding: 40px 20px;
